@@ -14,8 +14,6 @@ while True:
                 balansas += float(eilute)
             print(f" Suvestos sumos : {saskaita} ")
             print(f' -----------------\nĮvestas sąskaitos balansas:  {round(balansas, 1)}')
-            # a = sum(c for c in saskaita)
-            # print(f'suma: {a}')
         except:
             print("Nėra jokių duomenų")
     if veiksmas == 2:
